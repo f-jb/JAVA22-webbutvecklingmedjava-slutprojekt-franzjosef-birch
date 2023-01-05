@@ -10,12 +10,13 @@
 </head>
 <body>
 <jsp:include page="header.html" />
-
+<section class="newuser">
 <h1>Create an account</h1>
 <form action="login.do" method="post">
 <input hidden="action" id="action"  name="action" value="newuser">
 <jsp:include page="userform.jsp" />
 </form>
+</section>
 <jsp:include page="footer.jsp" />
 </body>
 </html>

@@ -34,8 +34,17 @@ header>h1 {
 form {
 	display: flex;
 	flex-flow: column nowrap;
+	
+	
 }
 .search{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	margin: auto;
+	flex: 90%;
+}
+.newuser {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
